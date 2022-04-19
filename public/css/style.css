@@ -1,0 +1,26 @@
+form .avatar{
+    width: 55px;
+    margin-bottom: 13px;
+}
+
+.navbar .container-avatar,
+.publicacion_imagen .container-avatar{
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border-radius: 900px;
+}
+
+
+.navbar .container-avatar img,
+.publicacion_imagen .container-avatar img{
+    height: 100%;
+}
+
+.publicacion_imagen .container-avatar{
+    float:left;
+    margin-right: 20px;
+}
+.publicacion_imagen .username-data{
+    font-weight: bold;
+}
